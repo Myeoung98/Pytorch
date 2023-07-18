@@ -20,5 +20,5 @@ from image_app.views import classify_image
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('classify_image/', classify_image, name='classify_image'),
+    path('classify/', classify_image, name='classify_image'),
 ]
